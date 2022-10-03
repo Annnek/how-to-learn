@@ -245,7 +245,6 @@
 
 .kaufman {
   background-color: #1f1f1f;
-  color: white;
   position: relative;
   overflow: hidden;
 }
@@ -263,20 +262,33 @@
 .section-title_theme_dark {
   margin-top: 90px;
   z-index: 1;
+  color: white;
+}
+
+.section-subtitle_theme_dark {
+  padding: 0;
+  color: white;
 }
 
 .table_theme_dark {
   gap: 20px;
-  padding-bottom: 90px;
+  margin-bottom: 90px;
   z-index: 1;
 }
 
 .table__cell_theme_dark {
   width: 200px;
-  color: white;
   margin-right: 0;
   margin-top: 80px;
   z-index: 1;
+}
+
+.table__heading_theme_dark {
+  color: white;
+}
+
+.table__text_theme_dark {
+  color: white;
 }
 
 /* FOOTER SECTION */
