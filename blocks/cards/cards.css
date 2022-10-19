@@ -1,0 +1,9 @@
+.cards {
+  list-style: none;
+  display: flex; /*выравниваю в ряд с переносом на следующую строку с помощью wrap */
+  flex-wrap: wrap;
+  text-align: center;
+  width: 920px;
+  padding: 0;
+  margin: 0 auto;
+}
