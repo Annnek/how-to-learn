@@ -3,6 +3,9 @@
   right: 0;
   bottom: 0;
   width: 765px;
+  /* max-width: 100%; еще один вариант для того, чтобы пропорции картинки не менялись */
   height: 608px;
   z-index: 1;
+  object-fit: cover; /*свойства, чтобы пропорции картинки не менялись */
+  object-position: right bottom;
 }
